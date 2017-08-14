@@ -9,7 +9,7 @@ export default {
             decorateWidget('header-icons:before', helper => {
                 const showExtraInfo = helper.attrs.minimized;
                 if (!showExtraInfo) {
-                    return h('li.header-dropdown-togglALv2e', [
+                    return h('li.header-dropdown-toggle', [
                         h('a.icon.btn-flat', {
                                 'id': Discourse.SiteSettings.menu_icon_id,
                                 'href': Discourse.SiteSettings.menu_icon_url,
