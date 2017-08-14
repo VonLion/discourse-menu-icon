@@ -10,9 +10,16 @@ Proceed with a normal [installation of a plugin](https://meta.discourse.org/t/in
 
 The plugin is enabled by default and will link to example.com
 
+## Known issues
+[Two attributes don't work](https://meta.discourse.org/t/widget-helper-stripping-attributes/68014):
+ - aria-label
+ - _target
+
 ## About
 
 ![Screenshot](screenshot.png)
+
+
 
 ### License
 
