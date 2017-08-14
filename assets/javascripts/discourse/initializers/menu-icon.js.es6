@@ -14,8 +14,10 @@ export default {
                                 'id': Discourse.SiteSettings.menu_icon_id,
                                 'href': Discourse.SiteSettings.menu_icon_url,
                                 'title': Discourse.SiteSettings.menu_icon_title,
-                                'aria-label': Discourse.SiteSettings.menu_icon_title,
-                                '_target': ((Discourse.SiteSettings.menu_icon_new_window) ? "_blank" : "_self")
+                                'attributes': {
+                                    'aria-label': Discourse.SiteSettings.menu_icon_title,
+                                    'target': ((Discourse.SiteSettings.menu_icon_new_window) ? "_blank" : "_self")
+                                }
                             }, [
                                 h('i.fa.' + Discourse.SiteSettings.menu_icon_icon + '.d-icon', {
                                     'aria-hidden': 'true'
