@@ -1,0 +1,19 @@
+plugins:
+  menu_icon_enabled:
+    default: true
+    client: true
+  menu_icon_url:
+    default: "http://example.com"
+    client: true
+  menu_icon_icon:
+    default: "fa-info"
+    client: true
+  menu_icon_title:
+    default: "go to example.com"
+    client: true
+  menu_icon_id:
+    default: "extra-icon"
+    client: true
+  menu_icon_new_window:
+    default: false
+    client: true

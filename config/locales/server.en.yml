@@ -1,0 +1,8 @@
+en:
+  site_settings:
+    menu_icon_enabled: "Whether the Menu Icon plugin is enabled"
+    menu_icon_url: "The href of the link"
+    menu_icon_icon: "The font-awesome icon to show"
+    menu_icon_title: "The title (hovertext) of the icon"
+    menu_icon_id: "The title (hovertext) of the icon"
+    menu_icon_new_window: "Open in new window?"
