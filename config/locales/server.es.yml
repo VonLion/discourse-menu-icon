@@ -1,0 +1,8 @@
+es:
+  site_settings:
+    menu_icon_enabled: "Si el plugin Menu Icon está habilitado"
+    menu_icon_url: "El enlace (URL) del link"
+    menu_icon_icon: "El icono font-awesome a mostrar"
+    menu_icon_title: "El título a mostrar sobre el icono"
+    menu_icon_id: "El id del icono"
+    menu_icon_new_window: "¿Abrir en una ventana nueva?"
